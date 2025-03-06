@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Class 11 NEB Chapters</title>
+    <style>
+        /* Global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar style */
+        .sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #ecf0f1;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 20px 0;
+        }
+
+        .sidebar ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+            padding: 5px;
+            display: block;
+        }
+
+        .sidebar ul li a:hover {
+            color: #ff6600;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+
+        /* Content area style */
+        .content {
+            margin-left: 250px;
+            padding: 30px;
+            width: calc(100% - 250px);
+            background-color: white;
+            overflow-y: auto;
+        }
+
+        .content h1 {
+            font-size: 30px;
+            color: #2c3e50;
+        }
+
+        .chapter {
+            display: none;
+        }
+
+        /* Active chapter visibility */
+        .chapter.active {
+            display: block;
+        }
+
+        .chapter ul {
+            font-size: 20px;
+            color: #7f8c8d;
+        }
+
+        .chapter p {
+            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .chapter h3 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar for chapter links -->
+        <div class="sidebar">
+            <h2>Chapters</h2>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="showChapter(1)">Chapter 1: Introduction to Computers</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(2)">Chapter 2: Basics of Programming</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(3)">Chapter 3: Operating Systems</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(4)">Chapter 4: Data Representation</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(5)">Chapter 5: Database Management</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(6)">Chapter 6: Networking</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(7)">Chapter 7: Internet Technologies</a></li>
+                <li><a href="javascript:void(0);" onclick="showChapter(8)">Chapter 8: Security and Privacy</a></li>
+            </ul>
+        </div>
+
+        <!-- Content area for displaying chapters -->
+        <div class="content">
+            <h1>Computer Class 11 NEB Chapters</h1>
+            <p>Click on the chapter links in the sidebar to view each chapter's content.</p>
+
+            <!-- Chapter 1 -->
+            <div class="chapter" id="chapter1">
+                <h2>Chapter 1: Introduction to Computers</h2>
+                <p>This chapter introduces the basic concepts of computers. It covers the definition of a computer, its components, and the types of computers available. You will learn about the various hardware components, such as the Central Processing Unit (CPU), memory, storage devices, and input/output devices. Additionally, the chapter explains the role of software in a computer system, including system software and application software.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>What is a Computer?</li>
+                    <li>Computer Hardware and Software</li>
+                    <li>Types of Computers</li>
+                    <li>Input and Output Devices</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>A computer is an electronic device that can store, retrieve, and process data. It has a central processing unit (CPU) that performs calculations and manages data. The software instructs the hardware how to perform specific tasks. Computers can be categorized as desktops, laptops, tablets, and mobile devices. Each of these has distinct characteristics that define their usage.</p>
+                <p>Input devices like the keyboard and mouse allow users to communicate with the computer, while output devices like the monitor and printer display the results. The role of software is critical in guiding hardware to perform tasks such as calculations, word processing, and even playing media files.</p>
+            </div>
+
+            <!-- Chapter 2 -->
+            <div class="chapter" id="chapter2">
+                <h2>Chapter 2: Basics of Programming</h2>
+                <p>This chapter introduces programming concepts and tools. It focuses on understanding programming logic, algorithms, and flowcharts. You will learn how to write simple programs in a high-level programming language like Python or C++. The chapter also covers data types, variables, and basic operations such as input, output, and control structures like loops and conditionals.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>Introduction to Programming</li>
+                    <li>Algorithms and Flowcharts</li>
+                    <li>Data Types and Variables</li>
+                    <li>Basic Input and Output Operations</li>
+                    <li>Control Structures (If-Else, Loops)</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>Programming is the process of writing instructions that a computer can follow to perform specific tasks. An algorithm is a step-by-step procedure to solve a problem. Flowcharts are diagrams that represent the logic of the algorithm in a graphical form.</p>
+                <p>Variables are used to store data, and each variable has a specific data type (such as integer, float, string). Control structures such as if-else and loops allow programs to make decisions or repeat actions based on conditions.</p>
+            </div>
+
+            <!-- Chapter 3 -->
+            <div class="chapter" id="chapter3">
+                <h2>Chapter 3: Operating Systems</h2>
+                <p>This chapter explains the concept of operating systems, including their functions and types. You will learn about the kernel, user interface, and the role of an operating system in managing hardware and software resources. The chapter also covers different types of operating systems such as batch, multi-tasking, and real-time operating systems.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>What is an Operating System?</li>
+                    <li>Types of Operating Systems</li>
+                    <li>Functions of Operating Systems</li>
+                    <li>System Software vs. Application Software</li>
+                    <li>Process Management</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>An operating system (OS) is software that manages computer hardware and software resources. It provides a user interface and controls the execution of programs. The OS manages memory, processes, input/output devices, and files. It acts as an intermediary between the user and the computer hardware.</p>
+                <p>Types of operating systems include single-tasking, multitasking, and real-time OS. Multi-tasking allows multiple processes to run simultaneously, while real-time systems handle tasks that require immediate processing, such as controlling industrial machines or medical equipment.</p>
+            </div>
+
+            <!-- Chapter 4 -->
+            <div class="chapter" id="chapter4">
+                <h2>Chapter 4: Data Representation</h2>
+                <p>This chapter covers how data is represented in computers. It includes topics such as binary and hexadecimal systems, character encoding (ASCII), and how data is stored in memory. You will also learn about image, audio, and video file formats.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>Binary System</li>
+                    <li>Hexadecimal System</li>
+                    <li>Character Encoding (ASCII)</li>
+                    <li>Data Storage in Memory</li>
+                    <li>Data Compression</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>In computers, data is represented in binary format, using the digits 0 and 1. The binary system is used because it is easy for computers to process. The hexadecimal system is often used as a more human-readable representation of binary data.</p>
+                <p>Character encoding systems like ASCII (American Standard Code for Information Interchange) assign a numeric value to each character, making it possible to represent text in a machine-readable form. Data compression techniques are used to reduce the size of files without losing important information, allowing for more efficient storage and transmission.</p>
+            </div>
+
+            <!-- Chapter 5 -->
+            <div class="chapter" id="chapter5">
+                <h2>Chapter 5: Database Management</h2>
+                <p>This chapter introduces the concept of databases, including relational databases and their components. You will learn about tables, queries, and the basics of database design. The chapter also explains SQL (Structured Query Language) and how it is used to interact with databases.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>What is a Database?</li>
+                    <li>Relational Databases</li>
+                    <li>SQL (Structured Query Language)</li>
+                    <li>Database Design</li>
+                    <li>Normalization</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>A database is an organized collection of data that can be easily accessed, managed, and updated. Relational databases use tables to store data in rows and columns, with relationships between tables defined by keys.</p>
+                <p>SQL is the standard language for managing and querying relational databases. It is used to perform tasks such as inserting, updating, deleting, and retrieving data from tables.</p>
+            </div>
+
+            <!-- Chapter 6 -->
+            <div class="chapter" id="chapter6">
+                <h2>Chapter 6: Networking</h2>
+                <p>This chapter explains the basics of computer networking. Topics include the OSI model, types of networks (LAN, WAN), network devices, IP addressing, and the basics of internet protocols.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>Types of Networks</li>
+                    <li>OSI Model</li>
+                    <li>Networking Devices</li>
+                    <li>IP Addressing and Protocols</li>
+                    <li>Routing and Switching</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>Computer networks allow devices to communicate and share resources. They can be classified into Local Area Networks (LAN), Wide Area Networks (WAN), and other types like MAN (Metropolitan Area Network).</p>
+                <p>The OSI (Open Systems Interconnection) model describes how data is transmitted in a network through seven layers. IP addressing assigns unique identifiers to devices on the network. Routing and switching determine the best paths for data to travel between devices.</p>
+            </div>
+
+            <!-- Chapter 7 -->
+            <div class="chapter" id="chapter7">
+                <h2>Chapter 7: Internet Technologies</h2>
+                <p>This chapter covers technologies related to the internet, including web development, HTML, CSS, JavaScript, and client-server architecture. It introduces the basics of building websites and web applications.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>Internet Basics</li>
+                    <li>Web Development Basics</li>
+                    <li>HTML, CSS, and JavaScript</li>
+                    <li>Client-Server Architecture</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>The internet is a global network of interconnected computers and devices that communicate using protocols like TCP/IP. Web development involves building websites using HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript to add interactivity.</p>
+                <p>Client-server architecture involves a server providing resources or services, and clients requesting them. This is the fundamental structure behind most web applications.</p>
+            </div>
+
+            <!-- Chapter 8 -->
+            <div class="chapter" id="chapter8">
+                <h2>Chapter 8: Security and Privacy</h2>
+                <p>This chapter introduces the concepts of security and privacy on the internet. Topics include encryption, firewalls, secure communication, and ethical issues surrounding data privacy.</p>
+                
+                <h3>Key Concepts</h3>
+                <ul>
+                    <li>Data Security</li>
+                    <li>Encryption</li>
+                    <li>Firewalls</li>
+                    <li>Privacy Issues on the Internet</li>
+                    <li>Ethical Hacking</li>
+                </ul>
+
+                <h3>Details</h3>
+                <p>Data security is crucial in protecting sensitive information from unauthorized access. Encryption techniques like SSL/TLS ensure that data is transmitted securely over the internet. Firewalls act as a barrier between internal networks and external threats.</p>
+                <p>Privacy issues arise when personal information is collected and used without consent. Ethical hacking involves testing and securing computer systems from potential threats.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to show and hide chapters based on the clicked link
+        function showChapter(chapterNumber) {
+            // Hide all chapters
+            var chapters = document.querySelectorAll('.chapter');
+            chapters.forEach(function(chapter) {
+                chapter.classList.remove('active');
+            });
+
+            // Show the selected chapter
+            document.getElementById('chapter' + chapterNumber).classList.add('active');
+        }
+    </script>
+</body>
+</html>
